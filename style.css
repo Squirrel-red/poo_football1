@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*{
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #fff;
+}
+
+h2{
+    font-weight: 700;
+    margin: 0;
+}
+
+p{
+    font-weight: 200;
+}
+
+.card{
+    width: 500px;
+    height: flex;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 0.5rem;
+    margin: 20px;
+    padding: 20px;
+}
+
+.wrapper-pays{
+    display: flex;
+}
+
+.card-pays{
+    background-color: #a35656;
+}
+
+
+.wrapper-club{
+    display: flex;
+}
+
+.card-club{
+    background-color: #4864a0;
+}
+
+.wrapper-joueur{
+    display: flex;
+}
+
+.card-joueur{
+    background-color: #4a9c55;
+}
